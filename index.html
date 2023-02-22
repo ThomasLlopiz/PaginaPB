@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="slick.css" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@300&family=Roboto+Condensed:ital,wght@0,400;0,700;1,300&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <nav id="inicio">
+      <div class="logo">
+        <h2>Ing. Pablo Bai</h2>
+      </div>
+      <div class="menu">
+        <ul>
+          <li><a href="#inicio">Inicio</a></li>
+          <li><a href="#nosotros">Nosotros</a></li>
+          <li><a href="#">Trabajos</a></li>
+        </ul>
+      </div>
+    </nav>
+
+    <header>
+      <div class="banner-area">
+        <div class="single-banner">
+          <div class="banner-img">
+            <img src="img/p1.jpg" alt="" />
+          </div>
+          <div class="banner-text">
+            <h2>Calidad y Buen servicio</h2>
+            <p>
+              BRINDAR LO SOLICITADO POR EL CLIENTE LOGRANDO SOLUCIONAR SUS
+              PROBLEMAS O SUPLIR SUS NECESIDADES CON PRODUCTOS DE CALIDAD, BAJO
+              NORMA Y AL MEJOR PRECIO..
+            </p>
+          </div>
+        </div>
+        <div class="single-banner">
+          <div class="banner-img">
+            <img src="img/p2.jpg" alt="" />
+          </div>
+          <div class="banner-text">
+            <h2>Tableros a medida</h2>
+            <p>
+              BRINDAMOS SOLUCIONES PARA AGROINDUSTRIAS COMO SER PLANTA DE SILOS,
+              ACEITERAS, ALIMENTICIAS, BOMBEOS, RIEGO, INDUSTRIA DEL PETROLEO,
+              MINERIA Y MUCHOS RUBROS MAS.
+            </p>
+          </div>
+        </div>
+        <div class="single-banner">
+          <div class="banner-img">
+            <img src="img/p3.jpg" alt="" />
+          </div>
+          <div class="banner-text">
+            <h2>Buena atencion y asesoramiento</h2>
+            <p>
+              BRINDAMOS ACESORAMIENTO TÉCNICO, DE CÁLCULO, DISEÑO Y DESARROLLO
+              PARA SOLUCIONES ELÉCTRICAS COMO INSTALACIONES INDUSTRIALES,
+              AUTOMATISMOS, CÁLCULOS, DISEÑO Y FABRICACIÓN DE TABLEROS
+              ELÉCTRICOS, AHORRO DE ENERGÍA, ETC.
+            </p>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <section id="nosotros" class="presentation">
+        <h2 class="title-presentation">Quienes somos</h2>
+        <p class="text-presentation">
+          LA EMPRESA NACE HACE MAS DE 10 AÑOS CON EL OBJETIVO DE BRINDAR
+          SOLUCIONES PROFESIONALES EN EL AREA ELECTRICA, ELECTROMECANICA Y
+          ELECTRÓNICA EN EL AREA INDUSTRIAL.
+        </p>
+        <p>
+          ASESORANDO Y DISEÑANDO LOS PROYECTOS MAS DIVERSOS EN LA INDUSTRIA.
+        </p>
+      </section>
+      <div class="contenedor-galeria">
+        <div class="galeria">
+          <img class="img-galeria" src="/img/img1.jpeg" alt="" />
+          <img class="img-galeria" src="/img/img2.jpeg" alt="" />
+          <img class="img-galeria" src="/img/img3.jpeg" alt="" />
+          <img class="img-galeria" src="/img/img4.jpeg" alt="" />
+          <img class="img-galeria" src="/img/img5.jpeg" alt="" />
+          <img class="img-galeria" src="/img/img6.jpeg" alt="" />
+          <img class="img-galeria" src="/img/img7.jpeg" alt="" />
+          <img class="img-galeria" src="/img/img8.jpeg" alt="" />
+          <img class="img-galeria" src="/img/img9.jpeg" alt="" />
+          <img class="img-galeria" src="/img/img10.jpeg" alt="" />
+          <img class="img-galeria" src="/img/img11.jpeg" alt="" />
+          <img class="img-galeria" src="/img/img12.jpeg" alt="" />
+          <img class="img-galeria" src="/img/img13.jpeg" alt="" />
+        </div>
+      </div>
+
+      <div class="sticky-container">
+        <ul class="sticky">
+          <li>
+            <img src="img/instagram.png" width="32" height="32" />
+            <p>
+              <a href="https://www.facebook.com/codexworld" target="_blank"
+                >Instagram</a
+              >
+            </p>
+          </li>
+          <li>
+            <img src="img/wpp.png" width="32" height="32" />
+            <p>
+              <a href="https://www.pinterest.com/codexworld" target="_blank"
+                >Whatsapp</a
+              >
+            </p>
+          </li>
+        </ul>
+      </div>
+    </main>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="slick.min.js"></script>
+    <script>
+      $(".banner-area").slick({
+        autoplay: true,
+        speed: 800,
+        arrows: false,
+        dots: true,
+        fade: true,
+      });
+    </script>
+  </body>
+</html>
