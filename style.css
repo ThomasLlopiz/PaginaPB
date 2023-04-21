@@ -115,16 +115,19 @@ nav{
     opacity: .75;
 }
 .presentation{
+    height: 280px;
     color: #fff;
     text-align: center;
     text-transform: uppercase; 
 }
 .title-presentation{
     font-size: 40px;
+    height: 80px;
 }
 .text-presentation{
     margin-left: 20%;
     margin-right: 20%;
+    font-size: 18px;
 }
 
     /*GALERIA*/
@@ -135,7 +138,7 @@ nav{
     align-items: center;
 }
 .galeria{
-    background-color: #525A7A;
+    background-color: #414c79;
     border-radius: 10px;
     display: flex;
     flex-flow: wrap;
@@ -148,8 +151,8 @@ nav{
     padding: 1rem;
 }
 .galeria img:hover{
-    -webkit-transform: scale(2.5);
-    transform: scale(2.5);
+    -webkit-transform: scale(1.5);
+    transform: scale(1.5);
 }
 
 h2 {
@@ -191,10 +194,10 @@ h2 {
     margin-right:5px;
 }
 .sticky li p{
-    padding-top:5px;
+    padding-top: 12px;
     margin:0px;
     line-height:16px;
-    font-size:11px;
+    font-size:20px;
 }
 .sticky li p a{
     text-decoration:none;
@@ -205,7 +208,7 @@ h2 {
 }
 
 body {
-	background: #444;
+	background: #2e2f3f;
 	margin: 0;
 	font-family: monospace;
 }
@@ -218,7 +221,7 @@ h1 {
 /*Estilos de la galeria*/
 
 .galeria {
-	width: 90%;
+	width: 50%;
 	margin: auto;
 	list-style: none;
 	padding: 20px;
@@ -308,16 +311,58 @@ h1 {
 }
 
 /*FOOTER*/
-.footer{
-    text-align: center;
+
+footer {
+    background-color: #222;
+    color: #fff;
+    padding: 0px 0;
+  }
+  
+  .container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+  
+  .footer-columns {
     display: flex;
-    justify-content: center;
-	align-items: center;
-}
-.imgfooter{
-    padding: 4rem 1rem;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .footer-column {
+    width: 30%;
+    margin-bottom: 40px;
+  }
+  
+  .footer-column h3 {
+    font-size: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .footer-column ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .footer-column li {
+    margin-bottom: 10px;
+  }
+  
+  .footer-column a {
+    color: #fff;
+    text-decoration: none;
+  }
+
+  .footer-column p {
+    font-size: 14px;
+  }
+
+  #logo{
+    padding: 2rem 1rem;
     float: left;
     padding-right: 10px;
-    width:30px;
-    height:30px;
-}
+    width:70px;
+    height:90px;
+  }
